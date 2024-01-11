@@ -43,7 +43,7 @@ We can change the state of the system by external work given that the sources of
 
 Internal energy is a state function and can be obtained via differentiation. Let $X_i$ be thermodynamic coordinate, then $dE=\sum_{i} \partial_i E dX_i$.
 
-*Quasi-Static Process* is performed sufficiently slowly so that the system is infitessimally close to equilibrium at all times. In such a process the thermodynamic coordinates exist and in principle always be computed. We can divide statefucntion into a set of *generalized displacement* **$x_i$** and a their conjugate  *generalized forces* **$J_i$**, which for a quasi-static process will give, $$đW=\sum_i J_i dx_i$$ 
+*Quasi-Static Process* is performed sufficiently slowly so that the system is infitessimally close to equilibrium at all times. In such a process the thermodynamic coordinates exist and in principle can always be computed. We can divide statefucntion into a set of *generalized displacement* **$x_i$** and a their conjugate  *generalized forces* **$J_i$**, which for a quasi-static process will give, $$đW=\sum_i J_i dx_i$$ 
 
 The displacements are generally _extensive_ properties (they scale with the size of the system) while the forces are _intensive_ properties (they are inherent to the system). The uniformity of generalized forces, e.g. Pressure exerted on the wall of a gas chamber (without any external potential), is an indicator of equilibrium. Similarly Temperature is also a generalized force, with Volume of the system acting as a generalized displacement (also for Pressure).
 
