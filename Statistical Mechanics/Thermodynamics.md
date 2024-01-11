@@ -23,7 +23,7 @@ Isotherms of a system are described by the constaint $$T = const.$$
 Ideal gas is _dilute limit_ of a real gas and from emperical observations, we see that the product of Pressure and Volume remain constant along an isotherm of such ideal gas. We can describe the Kelvin temperature scale using the ideal gas. 
 - 0K is the temperature at which the ideal gas attains 0 volueme.
 - The ideal gas temperature is proportional to PV and at 273.16K, $$PV_{system}=PV_{triple-point-of-water}$$
-- Hence, $$T=273.16*\frac{PV_{system}}{PV_{tpow}}$$
+- Hence, $$T=273.16\frac{PV_{system}}{PV_{triple-point-of-water}}$$
 
 # First Law 
 This is essentially the statement of **Conservation of Energy** for thermodynamical systems.
