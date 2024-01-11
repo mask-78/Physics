@@ -26,3 +26,25 @@ Ideal gas is _dilute limit_ of a real gas and from emperical observations, we se
 - Hence, $$T=273.16*\frac{PV_{system}}{PV_{tpow}}$$
 
 # First Law 
+This is essentially the statement of **Conservation of Energy** for thermodynamical systems.
+> The change in internal enrgy U of a system is due to the heat supplied Q and the work done W on the system.
+
+$$\Delta U = \Delta Q + \Delta W$$
+
+<details>
+<summary>Convetional bullshit</summary>
+The Work done $\Delta W$ is +ve when done <b><i>on the system</i></b>. Similarly the heat change $\Delta Q$ is heat supplied <i><b>to the system by a reservoir</b></i>.
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
