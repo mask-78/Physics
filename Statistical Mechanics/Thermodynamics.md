@@ -37,7 +37,7 @@ The Work done $\Delta W$ is +ve when done <b><i>on the system</i></b>. Similarly
 </details>
 
 ### Quasi-Static Process
-When a system has $\Detla Q=0$, it is said to be *adiabatically isolated*
+When a system has $\Delta Q=0$, it is said to be *adiabatically isolated*
 
 We can change the state of the system by external work given that the sources of energy are only of mechanical origin, i.e. for an adiabatically isolated system, the work required only depends on the initial and final states and not on the path required to reach the final state. However when the system is not isolated, the total change in internal energy depends on both the work done and heat supplied. This means that work and heat are themselves no longer state functions as they depend on the means of production of work and not just on final states. W and Q depend on path, we can therefore represent first law as, $$dU=đQ+đW$$
 
@@ -51,8 +51,8 @@ The displacements are generally _extensive_ properties (they scale with the size
 Usual methods for charecterizing the macroscopic behaiviour of a system are _Response functions_, these are experimentally measured using external probes. Some common response functions are, 
 
 * *Heat Capacities* describe the relationship between the change of temperature and heat supply to the system. Heat is not a state funtion hence the path must be satisfied,
-	- When volume is kept constant $W=PdV=0$, $$C_v=\eval{\frac{\partial Q}{\partial T}}_v = \eval{\frac{\partial U}{\partial T}}_v $$
-	- When pressure is kept constant, $$C_p=\eval{\frac{dQ}{dT}}_p=\eval{\frac{\partial E}{\partial T}}_p+P\eval{\frac{\partial V}{\partial T}}_p$$
+	- When volume is kept constant $W=PdV=0$, $$C_v=\left. \frac{\partial Q}{\partial T}\right|_v = \left. \frac{\partial U}{\partial T}\right|_v $$
+	- When pressure is kept constant, $$C_p=\left. \frac{\partial Q}{\partial T}\right|_p=\left. \frac{\partial U}{\partial T}\right|_p+\left. P\frac{\partial V}{\partial T}\right|_p$$
 
 
 
