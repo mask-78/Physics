@@ -1,4 +1,4 @@
-## Introduction
+# Introduction
 
 Thermodynamics is the phenomenological(based on physical observations) description of properties of macroscopic systems in thermal equilibrium.
 
@@ -6,7 +6,7 @@ Thermodynamics is the phenomenological(based on physical observations) descripti
 - A State funtion is a thermodynamic coordinate that describes the state of system. They are valid only when the system is in equilibrium w.r.t a given observation time scale. The dependence on an observation time scale makes equilibrium a subjective quatitiy.
 - The relationship between these state functions is described by the Laws of Thermodynamics and their mathematical framework, which are based on emperical observations and more fundamental laws (microscopic) are needed for their justification.
 
-## Zeroth Law
+# Zeroth Law
 
 [Insert image of zeroth law]
 
