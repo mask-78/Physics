@@ -12,7 +12,7 @@ Thermodynamics is the phenomenological(based on physical observations) descripti
 
 > If two systems A and B are in equilibrium with a third system C, then they are also in equilibrium with each other.
 
-It is assumed that each system is separately in mechanical equilibrium. If systems are allowed to work on each other then additional conditions constraints must be put to describe their joint mechanial equilibrium.
+It is assumed that each system is separately in mechanical equilibrium. If systems are allowed to work on each other then additional constraints must be put to describe their joint mechanial equilibrium.
 
 We can describe a constaint equation b/w A, C and B, C and from the Zeroth Law this constraint must also exist b/w A,B. This gives us the definition of _emperical temerature_ *T*. There can be many potential choices of what this constraint might be but the essential idea is the existence of such a function itself.
 
@@ -22,7 +22,7 @@ Isotherms of a system are described by the constaint $$T = const.$$
 
 Ideal gas is _dilute limit_ of a real gas and from emperical observations, we see that the product of Pressure and Volume remain constant along an isotherm of such ideal gas. We can describe the Kelvin temperature scale using the ideal gas. 
 - 0K is the temperature at which the ideal gas attains 0 volueme.
-- The ideal gas temperature is proportional to PV and at 273.16K $$PV_{system}=PV_{triple-point-of-water}$$
+- The ideal gas temperature is proportional to PV and at 273.16K, $$PV_{system}=PV_{triple-point-of-water}$$
 - Hence, $$T=273.16*\frac{PV_{system}}{PV_{tpow}}$$
 
 # First Law 
@@ -35,6 +35,29 @@ $$\Delta U = \Delta Q + \Delta W$$
 <summary>Convetional bullshit</summary>
 The Work done $\Delta W$ is +ve when done <b><i>on the system</i></b>. Similarly the heat change $\Delta Q$ is heat supplied <i><b>to the system by a reservoir</b></i>.
 </details>
+
+### Quasi-Static Process
+When a system has $\Detla Q=0$, it is said to be *adiabatically isolated*
+
+We can change the state of the system by external work given that the sources of energy are only of mechanical origin, i.e. for an adiabatically isolated system, the work required only depends on the initial and final states and not on the path required to reach the final state. However when the system is not isolated, the total change in internal energy depends on both the work done and heat supplied. This means that work and heat are themselves no longer state functions as they depend on the means of production of work and not just on final states. W and Q depend on path, we can therefore represent first law as, $$dU=đQ+đW$$
+
+Internal energy is a state function and can be obtained via differentiation. Let $X_i$ be thermodynamic coordinate, then $dE=\sum_{i} \partial_i E dX_i$.
+
+*Quasi-Static Process* is performed sufficiently slowly so that the system is infitessimally close to equilibrium at all times. In such a process the thermodynamic coordinates exist and in principle always be computed. We can divide statefucntion into a set of *generalized displacement* **$x_i$** and a their conjugate  *generalized forces* **$J_i$**, which for a quasi-static process will give, $$đW=\sum_i J_i dx_i$$ 
+
+The displacements are generally _extensive_ properties (they scale with the size of the system) while the forces are _intensive_ properties (they are inherent to the system). The uniformity of generalized forces, e.g. Pressure exerted on the wall of a gas chamber (without any external potential), is an indicator of equilibrium. Similarly Temperature is also a generalized force, with Volume of the system acting as a generalized displacement (also for Pressure).
+
+### Response Functions
+Usual methods for charecterizing the macroscopic behaiviour of a system are _Response functions_, these are experimentally measured using external probes. Some common response functions are, 
+
+* *Heat Capacities* describe the relationship between the change of temperature and heat supply to the system. Heat is not a state funtion hence the path must be satisfied,
+	- When volume is kept constant $W=PdV=0$, $$C_v=\eval{\frac{\partial Q}{\partial T}}_v = \eval{\frac{\partial U}{\partial T}}_v $$
+	- When pressure is kept constant, $$C_p=\eval{\frac{dQ}{dT}}_p=\eval{\frac{\partial E}{\partial T}}_p+P\eval{\frac{\partial V}{\partial T}}_p$$
+
+
+
+
+
 
 
 
