@@ -51,9 +51,9 @@ The displacements are generally _extensive_ properties (they scale with the size
 Usual methods for charecterizing the macroscopic behaiviour of a system are _Response functions_, these are experimentally measured using external probes. Some common response functions are, 
 
 * *Heat capacities* describe the relationship between the change of temperature and heat supply to the system. Heat is not a state funtion hence the path must be satisfied,
-	- When volume is kept constant $W=PdV=0$, $$C_v=\left. \frac{dQ}{\dT}\right|_v = \left. \frac{\partial U}{\partial T}\right|_v $$
-	- When pressure is kept constant, $$C_p=\left. \frac{dQ}{\dT}\right|_p=\left. \frac{\partial U}{\partial T}\right|_p+\left. P\frac{\partial V}{\partial T}\right|_p$$
-	- Since U is only a function of temperature $$C_p-C_v=\left. P\frac{\partial V}{\partial T}\right|_p=Nk_b$$.
+	- When volume is kept constant $W=PdV=0$, $$C_v=\left. \frac{dQ}{dT}\right|_v = \left. \frac{\partial U}{\partial T}\right|_v $$
+	- When pressure is kept constant, $$C_p=\left. \frac{dQ}{dT}\right|_p=\left. \frac{\partial U}{\partial T}\right|_p+\left. P\frac{\partial V}{\partial T}\right|_p$$
+	- Since U is only a function of temperature, $$C_p-C_v=\left. P\frac{\partial V}{\partial T}\right|_p=Nk_b$$
 
 * *Force constants* are a infinitesimal ration of displacements to force and are generalization of spring constant. e.g. isothermal compressibility, magnetic susceptibility, etc.
 * *Thermal responses* describe the change in thermodynamic coordinate w.r.t temperature. 
